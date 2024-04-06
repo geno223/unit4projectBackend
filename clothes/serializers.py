@@ -8,4 +8,4 @@ class OutfitSerializer(serializers.HyperlinkedModelSerializer):
             #model to serialize
             model=Outfits
             #fields to show
-            fields='__all__'
+            fields=('id, clothes_type, clothes_price, clothes_image')
